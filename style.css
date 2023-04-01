@@ -1,0 +1,124 @@
+* {
+    font-family: 'Bebas Neue', cursive;
+     color: rgb(50, 100, 170);
+}
+
+body {
+    margin: 0;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 19%, rgb(219, 224, 230) 81%, rgb(28, 88, 140, 1) 100%);
+    height: 94.7vh;
+}
+
+.main {
+    height: 500px;
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    font-size: 70px;
+    margin: 50px;
+    color: rgba(28, 88, 140, 1);
+    text-align: center;
+}
+
+.buttons {
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: groove 1px;
+    border-color: rgba(28, 88, 140, 1);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.button {
+    padding: 10px;
+    border: groove 1px;
+    border-color: rgba(28, 88, 140, 1);
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.visual {
+    margin: auto;
+    width: 95%;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: groove 1px;
+    border-color: rgba(28, 88, 140, 1);
+    border-radius: 20px;
+    align-items: flex-end;
+}
+
+.Algo,
+.speed {
+    width: 100px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.bar {
+    margin: 0.5px;
+    text-align: center;
+    height: 200px;
+    width: 50px;
+    color: white;
+    padding-bottom: 10px;
+    background-color: rgb(1, 112, 238);
+}
+
+.output {
+    margin-right: 20px;
+}
+
+.bar h6 {
+    text-align: center;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.vl {
+    border-left: 6px solid rgba(28, 88, 140, 1);
+    height: 500px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 10px;
+    border-radius: 5px;
+    background: rgb(121, 162, 238);
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: rgb(1, 112, 238);
+    cursor: pointer;
+}
+
+.slider::-webkit-range-thumb {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: rgb(1, 112, 238);
+    cursor: pointer;
+
+}
