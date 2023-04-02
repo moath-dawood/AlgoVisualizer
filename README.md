@@ -21,6 +21,7 @@ a simple site featuring the visualization of three sorting algorithms which are 
 
 ## Usage/Examples
 Randomize the values of the sample then click on the visualize button, or you can change size, speed or the size of the sample then visualize it.
+You can access the site from [here.](https://moath-dawood.github.io/AlgoVisualizer/)
 
 
 
