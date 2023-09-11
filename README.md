@@ -15,7 +15,7 @@ a simple site featuring the visualization of three sorting algorithms which are 
 - Randomzing the sample value.
 - Speed up or down the animation.
 - Smooth transtion of algorithms.
-- Capabilty of adding more algorithms.
+- Capability of adding more algorithms.
 
 
 
